@@ -1,0 +1,26 @@
+CHEATSHEET GIT GITHUB
+git init: Sirve para inicializar el repositorio
+git config --global user.name "nombre de usuario" = Establecer el usuario
+git config --global user.email email@email.com = Establecer el email
+git config --global --unset user.name "nombre de usuario" = Eliminar el registro de usuario
+git config --global --unset user.email email@email.com = Eliminar el registro de email
+git init = Inicializa  o crea un nuevo repositorio
+git status = Muestra el estado de los archivos del repositorio
+git add .= Añade todos los archivos 
+git commit -m "mensaje del commit" = Crea un commit de los archivos modificados
+git rm archivo = remueve el archivo
+git rm -r directorio = remueve el directorio
+git log = Muestra el historial de actividad
+git remote add origin <link> = Enlaza el repositorio local con el remoto
+git push origin main = Enviar los cambios del repositorio local al remoto
+git pull origin main = Actualiza los archivos del repositorio remoto al local
+git clone <link> = Clona un repositorio remoto existente
+git branch nombre_nuevaBranch = Crea una nueva branch
+git checkout nombre_nuevaBranch = Cambia a una branch existente
+mkdir nombreCarpeta = Crea una nueva nombreCarpeta
+touch nombreArchivo = Crea un nuevo archivo 
+cd carpeta = Permite entrar a carpetas ya creadas
+cd .. = Nos devuelve un nivel hacia la carpeta de arriba
+ls = Ver lo que hay dentro de la carpeta
+rm nombre = borra el archivo
+rm -rf nombre = Borra directorio y los archivos que contiene el mismo
